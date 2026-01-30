@@ -1,0 +1,62 @@
+Style.css
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  line-height: 1.7;
+  background-color: #f2f8ff; /* very light blue */
+  color: #1f2933;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.8rem;
+  color: #1e3a8a; /* deep blue */
+}
+
+h2 {
+  color: #2563eb; /* blue */
+  margin-top: 50px;
+}
+
+h3 {
+  color: #1e40af;
+  margin-top: 25px;
+}
+
+/* Sections */
+section {
+  background: #ffffff;
+  padding: 25px;
+  margin-top: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Horizontal line */
+hr {
+  border: none;
+  height: 2px;
+  background: #dbeafe;
+  margin: 50px 0;
+}
+
+/* Links */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer / contact */
+footer {
+  text-align: center;
+  margin-top: 60px;
+  color: #475569;
+}
