@@ -126,13 +126,3 @@ footer {
 .top-nav a:hover {
   color: #ffffff; /* keep text white */
 }
-
-/* Move contact list slightly to the right */
-.contact-list {
-  margin-left: 40px; /* adjusts horizontal spacing */
-  padding-left: 0;   /* remove default extra padding if needed */
-}
-
-.contact-list li {
-  margin-bottom: 10px; /* optional spacing between items */
-}
