@@ -72,3 +72,57 @@ footer {
   color: #475569;
   font-size: 1.05rem;
 }
+
+/* Top navigation with bubble hover effect */
+.top-nav {
+  background-color: #3b82f6; /* medium blue */
+  padding: 15px 0;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.top-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 8px 15px;
+  border-radius: 50px; /* rounded pill shape */
+  transition: all 0.3s ease;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Bubble effect using pseudo-element */
+.top-nav a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2); /* light bubble */
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.4s ease, height 0.4s ease;
+  z-index: -1;
+}
+
+.top-nav a:hover::before {
+  width: 150%;
+  height: 300%;
+}
+
+.top-nav a:hover {
+  color: #ffffff; /* keep text white */
+}
