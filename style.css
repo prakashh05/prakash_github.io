@@ -73,9 +73,9 @@ footer {
   font-size: 1.05rem;
 }
 
-/* Top navigation with bubble hover effect */
+/* Top navigation - horizontal, responsive */
 .top-nav {
-  background-color: #3b82f6; /* medium blue */
+  background-color: #3b82f6;
   padding: 15px 0;
   border-radius: 0 0 12px 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -85,9 +85,14 @@ footer {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 20px; /* slightly smaller gap for responsiveness */
   margin: 0;
   padding: 0;
+  flex-wrap: wrap; /* allows slight wrapping without breaking */
+}
+
+.top-nav li {
+  text-align: center;
 }
 
 .top-nav a {
@@ -95,15 +100,17 @@ footer {
   color: white;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1.1rem;
-  padding: 8px 15px;
-  border-radius: 50px; /* rounded pill shape */
+  font-size: 1rem; /* slightly smaller on mobile */
+  padding: 8px 12px;
+  border-radius: 50px;
   transition: all 0.3s ease;
   overflow: hidden;
   z-index: 1;
+  display: inline-block;
+  white-space: nowrap; /* prevents text from breaking */
 }
 
-/* Bubble effect using pseudo-element */
+/* Bubble hover effect */
 .top-nav a::before {
   content: "";
   position: absolute;
@@ -111,7 +118,7 @@ footer {
   left: 50%;
   width: 0;
   height: 0;
-  background: rgba(255, 255, 255, 0.2); /* light bubble */
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   transform: translate(-50%, -50%);
   transition: width 0.4s ease, height 0.4s ease;
@@ -123,6 +130,19 @@ footer {
   height: 300%;
 }
 
+/* Keep bubble color white on hover */
 .top-nav a:hover {
-  color: #ffffff; /* keep text white */
+  color: #ffffff;
+}
+
+/* Mobile tweaks */
+@media (max-width: 600px) {
+  .top-nav a {
+    font-size: 0.95rem; /* slightly smaller text */
+    padding: 6px 10px;  /* slightly smaller padding */
+  }
+
+  .top-nav ul {
+    gap: 12px; /* reduce spacing so tabs fit */
+  }
 }
