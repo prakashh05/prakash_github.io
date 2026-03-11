@@ -55,8 +55,9 @@ p {
 section {
   background: #ffffff;
   padding: 25px;
-  margin-top: 40px;
-  border-radius: 16px; /* slightly more rounded */
+  margin: 40px auto;   /* this centers the section */
+  max-width: 1000px;   /* prevents it stretching across the page */
+  border-radius: 16px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
 
