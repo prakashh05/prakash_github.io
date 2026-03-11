@@ -14,6 +14,21 @@ body {
   border-radius: 8px; /* slight rounding effect */
 }
 
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* space between images */
+  margin-top: 40px;
+}
+
+.images img {
+  width: 30%;        /* each image takes about 1/3 of the row */
+  max-width: 250px;  /* prevents them getting too big */
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
 /* Headings */
 h1 {
   font-size: 2.8rem;
