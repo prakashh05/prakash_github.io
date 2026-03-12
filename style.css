@@ -43,13 +43,13 @@ body {
 
 .contact-img {
     display: block;
-    width: 90%;           /* adjust as needed */
-    max-width: none;      /* allows image to grow */
-    height: auto;
-    margin: 30px auto;    /* centers image */
+    width: 90%;             /* scales image to 90% of container */
+    max-width: 100%;         /* prevents image from overflowing container */
+    height: auto;            /* maintains aspect ratio */
+    margin: 30px auto;       /* centers image */
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    object-fit: contain;
+    object-fit: contain;     /* scales image without cutting */
 }
 
 /* Headings */
