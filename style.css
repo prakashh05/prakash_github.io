@@ -29,15 +29,15 @@ body {
   object-fit: cover;
 }
 
-.my_hobbies-img {
+.about-img {
     display: block;
-    width: 90%;           /* takes most of the section width */
-    max-width: none;      /* removes restrictive max-width */
-    height: auto;         /* preserves aspect ratio */
-    margin: 30px auto;    /* centers image with spacing */
+    width: 90%;           /* adjust as needed */
+    max-width: none;      /* allows image to grow */
+    height: auto;
+    margin: 30px auto;    /* centers image */
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    object-fit: contain;  /* ensures the full image fits */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    object-fit: contain;
 }
 
 /* Headings */
