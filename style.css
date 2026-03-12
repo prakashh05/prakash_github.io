@@ -31,7 +31,7 @@ body {
 
 .my_hobbies-img {
     display: block;       /* ensures each image is on its own line */
-    max-width: 60%;       /* adjust size */
+    max-width: 100%;       /* adjust size */
     margin: 20px auto;    /* centers images with spacing */
     border-radius: 12px;  /* optional rounded corners */
 }
