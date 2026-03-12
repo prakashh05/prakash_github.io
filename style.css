@@ -40,16 +40,15 @@ body {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     object-fit: contain;
 }
-
 .contact-img {
     display: block;
-    width: 90%;             /* scales image to 90% of container */
-    max-width: 100%;         /* prevents image from overflowing container */
-    height: auto;            /* maintains aspect ratio */
-    margin: 30px auto;       /* centers image */
+    width: 60%;           /* scales image to 90% of container */
+    max-width: 100%;       /* ensures it doesn’t overflow container */
+    height: auto;          /* maintains aspect ratio */
+    margin: 30px auto;     /* centers the image */
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    object-fit: contain;     /* scales image without cutting */
+    object-fit: contain;   /* scales image without cropping */
 }
 
 /* Headings */
