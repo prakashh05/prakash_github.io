@@ -40,6 +40,17 @@ body {
     object-fit: contain;
 }
 
+.contact-img {
+    display: block;
+    width: 90%;           /* adjust as needed */
+    max-width: none;      /* allows image to grow */
+    height: auto;
+    margin: 30px auto;    /* centers image */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    object-fit: contain;
+}
+
 /* Headings */
 h1 {
   font-size: 2.8rem;
