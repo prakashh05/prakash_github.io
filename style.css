@@ -30,10 +30,13 @@ body {
 }
 
 .my_hobbies-img {
-    display: block;       /* ensures each image is on its own line */
-    max-width: 100%;       /* adjust size */
-    margin: 20px auto;    /* centers images with spacing */
-    border-radius: 12px;  /* optional rounded corners */
+    display: block;          /* puts image on its own line */
+    max-width: 100%;         /* prevents image from exceeding container width */
+    width: 100%;             /* scales image to container width */
+    height: auto;            /* maintains aspect ratio */
+    margin: 20px auto;       /* centers the image */
+    border-radius: 12px;     /* optional rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* optional shadow */
 }
 
 /* Headings */
