@@ -185,6 +185,10 @@ a.active {
     text-decoration: none; /* Optional: remove underline if any */
 }
 
+html {
+  overflow-y: scroll;
+}
+
 /* Mobile tweaks */
 @media (max-width: 600px) {
   .top-nav a {
