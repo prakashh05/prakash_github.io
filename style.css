@@ -29,6 +29,13 @@ body {
   object-fit: cover;
 }
 
+.my_hobbies-img {
+    display: block;       /* ensures each image is on its own line */
+    max-width: 60%;       /* adjust size */
+    margin: 20px auto;    /* centers images with spacing */
+    border-radius: 10px;  /* optional rounded corners */
+}
+
 /* Headings */
 h1 {
   font-size: 2.8rem;
