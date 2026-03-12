@@ -151,6 +151,13 @@ footer {
   color: #ffffff;
 }
 
+/* Style for the active link in the navigation menu */
+a.active {
+    color: #1e3a8a;  /* Dark blue color */
+    font-weight: bold; /* Optional: makes it stand out more */
+    text-decoration: none; /* Optional: remove underline if any */
+}
+
 /* Mobile tweaks */
 @media (max-width: 600px) {
   .top-nav a {
