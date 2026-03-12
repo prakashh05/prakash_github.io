@@ -67,6 +67,11 @@ h3 {
   margin-top: 25px;
 }
 
+h4 {
+  color: #3b82f6;   /* lighter blue to follow the hierarchy */
+  margin-top: 15px;
+}
+
 /* Paragraphs */
 p {
   font-size: 1.15rem; /* slightly larger for readability */
