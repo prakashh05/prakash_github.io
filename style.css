@@ -113,6 +113,8 @@ a {
   color: #2563eb;
   text-decoration: none;
   font-weight: 600;
+  word-break: break-word;   /* Break long words/URLs */
+  overflow-wrap: anywhere;  /* Ensures even very long words wrap */
 }
 
 a:hover {
