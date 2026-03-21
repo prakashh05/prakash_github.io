@@ -213,3 +213,14 @@ html {
     gap: 12px; /* reduce spacing so tabs fit */
   }
 }
+
+section ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+section ul li {
+    word-wrap: break-word;    /* wrap long content */
+    overflow-wrap: anywhere;   /* extra safety for long URLs */
+}
