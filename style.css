@@ -32,7 +32,7 @@ body {
 
 .pictures-img {
     display: block;
-    width: 60%;           /* scales image to 90% of container */
+    width: 90%;           /* scales image to 90% of container */
     max-width: 100%;       /* ensures it doesn’t overflow container */
     height: auto;          /* maintains aspect ratio */
     margin: 30px auto;     /* centers the image */
