@@ -226,9 +226,8 @@ html {
 }
 
 section ul {
-    margin: 0;
-    padding-left: 20px;
-    list-style-type: disc;
+  list-style-type: disc;
+  margin-left: 20px;
 }
 
 section li {
