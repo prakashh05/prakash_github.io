@@ -181,11 +181,6 @@ html {
   overflow-y: scroll;
 }
 
-ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
 /* Mobile tweaks */
 @media (max-width: 600px) {
   .top-nav a {
