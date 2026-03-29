@@ -42,7 +42,7 @@ body {
 }
 .contact-img {
     display: block;
-    width: 60%;           /* scales image to 90% of container */
+    width: 40%;           /* scales image to 40% of container */
     max-width: 100%;       /* ensures it doesn’t overflow container */
     height: auto;          /* maintains aspect ratio */
     margin: 30px auto;     /* centers the image */
@@ -53,7 +53,7 @@ body {
 
 .skills-img {
     display: block;
-    width: 60%;           /* scales image to 90% of container */
+    width: 50%;           /* scales image to 50% of container */
     max-width: 100%;       /* ensures it doesn’t overflow container */
     height: auto;          /* maintains aspect ratio */
     margin: 30px auto;     /* centers the image */
