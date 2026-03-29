@@ -65,7 +65,7 @@ body {
 .projects-img {
     display: block;
     width: 90%;           /* adjust as needed */
-    max-width: none;      /* allows image to grow */
+    max-width: 100%;      
     height: auto;
     margin: 30px auto;    /* centers image */
     border-radius: 12px;
