@@ -213,7 +213,7 @@ html {
   overflow-y: scroll;
 }
 
-.button-container {
+.button_container {
     display: flex;
     justify-content: center;
     gap: 20px;
