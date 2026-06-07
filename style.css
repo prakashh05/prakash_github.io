@@ -18,7 +18,7 @@ html.theme-home {
 
 /* Data */
 html.theme-data {
-  background-color: #dbeafe;
+  background-color: #8B1E2D;
 }
 
 /* Cyber */
@@ -258,11 +258,11 @@ footer {
 
 /* Data button */
 .btn_data {
-  background-color: #2563eb;
+  background-color: #8B1E2D;
 }
 
 .btn_data:hover {
-  background-color: #1d4ed8;
+  background-color: #7A1926;
 }
 
 /* Cyber button */
@@ -283,7 +283,7 @@ footer {
 }
 
 .theme-data .top-nav {
-  background-color: #2563eb;
+  background-color: #8B1E2D;
 }
 
 .theme-cyber .top-nav {
