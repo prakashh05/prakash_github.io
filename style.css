@@ -266,22 +266,23 @@ html {
     display: inline-block;
 }
 
-.btn_data {
-    background-color: #4da6ff;
+/* DATA button */
+.theme-data .btn_data {
+  background-color: #2563eb;
 }
 
-.btn_data:hover {
-    background-color: #1f8fff;
+.theme-data .btn_data:hover {
+  background-color: #1d4ed8;
 }
 
-.btn_cyber {
-    background-color: #0b2a5b;
+/* CYBER button */
+.theme-cyber .btn_cyber {
+  background-color: #0f2f6b;
 }
 
-.btn_cyber:hover {
-    background-color: #061a3a;
+.theme-cyber .btn_cyber:hover {
+  background-color: #0b1f4a;
 }
-
 
 /* Mobile tweaks */
 @media (max-width: 600px) {
