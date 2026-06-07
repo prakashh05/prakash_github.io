@@ -5,7 +5,30 @@
 
 
 /* =========================
-   BASE LAYOUT
+   PAGE BACKGROUND (THEME FIX)
+========================= */
+html {
+  background-color: #f2f8ff;
+}
+
+/* Home */
+html.theme-home {
+  background-color: #f2f8ff;
+}
+
+/* Data */
+html.theme-data {
+  background-color: #dbeafe;
+}
+
+/* Cyber */
+html.theme-cyber {
+  background-color: #0f2f6b;
+}
+
+
+/* =========================
+   BODY (CENTERED CARD)
 ========================= */
 body {
   font-family: 'Nunito', Arial, sans-serif;
@@ -17,23 +40,7 @@ body {
   color: #1f2933;
   border-radius: 12px;
   background: #ffffff;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-}
-
-
-/* =========================
-   THEME BACKGROUNDS (SOLID)
-========================= */
-html.theme-home {
-  background-color: #EAF5FF;
-}
-
-html.theme-data {
-  background-color: #8FC5FF;
-}
-
-html.theme-cyber {
-  background-color: #003F8A;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
 
 
@@ -98,6 +105,34 @@ p {
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
+.about-img,
+.projects-img {
+  display: block;
+  width: 90%;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  object-fit: contain;
+}
+
+.skills-img {
+  display: block;
+  width: 50%;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  object-fit: contain;
+}
+
+.contact-img {
+  display: block;
+  width: 40%;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  object-fit: contain;
+}
+
 
 /* =========================
    LINKS
@@ -127,17 +162,12 @@ footer {
 
 
 /* =========================
-   NAVIGATION (GLASS STYLE)
+   NAVIGATION
 ========================= */
 .top-nav {
   padding: 15px 0;
   border-radius: 0 0 12px 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-
-  background: rgba(255,255,255,0.35);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255,255,255,0.25);
 }
 
 .top-nav ul {
@@ -152,6 +182,7 @@ footer {
 
 .top-nav a {
   position: relative;
+  color: white;
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
@@ -160,26 +191,18 @@ footer {
   transition: all 0.25s ease;
   white-space: nowrap;
   overflow: hidden;
+  opacity: 0.9;
   z-index: 1;
 }
 
-/* NAV TEXT COLOURS */
-html.theme-home .top-nav a {
-  color: #1e3a8a;
-}
-
-html.theme-data .top-nav a,
-html.theme-cyber .top-nav a {
-  color: white;
-}
-
-/* HOVER */
+/* Hover */
 .top-nav a:hover {
+  opacity: 1;
+  color: #e0f2fe;
   transform: translateY(-2px);
-  opacity: 0.9;
 }
 
-/* hover bubble */
+/* Hover bubble */
 .top-nav a::before {
   content: "";
   position: absolute;
@@ -199,34 +222,19 @@ html.theme-cyber .top-nav a {
   height: 300%;
 }
 
-/* ACTIVE LINK */
+/* Active link */
 .top-nav a.active {
+  color: #ffffff;
   font-weight: 700;
-  background: rgba(255,255,255,0.18);
-  padding: 8px 14px;
+  background: rgba(255, 255, 255, 0.18);
   border-radius: 50px;
+  padding: 8px 14px;
   box-shadow: 0 0 10px rgba(255,255,255,0.15);
 }
 
 
 /* =========================
-   NAV COLOURS (THEMES)
-========================= */
-.theme-home .top-nav {
-  background-color: #6FB6FF;
-}
-
-.theme-data .top-nav {
-  background-color: #1F8BFF;
-}
-
-.theme-cyber .top-nav {
-  background-color: #003F8A;
-}
-
-
-/* =========================
-   BUTTONS
+   BUTTONS (BIGGER + CENTERED)
 ========================= */
 .button_container {
   display: flex;
@@ -250,22 +258,36 @@ html.theme-cyber .top-nav a {
 
 /* Data button */
 .btn_data {
-  background-color: #1F8BFF;
+  background-color: #2563eb;
 }
 
 .btn_data:hover {
-  background-color: #1672d6;
-  transform: translateY(-2px);
+  background-color: #1d4ed8;
 }
 
 /* Cyber button */
 .btn_cyber {
-  background-color: #0056B3;
+  background-color: #0f2f6b;
 }
 
 .btn_cyber:hover {
-  background-color: #003f8a;
-  transform: translateY(-2px);
+  background-color: #0b1f4a;
+}
+
+
+/* =========================
+   NAV THEMES
+========================= */
+.theme-home .top-nav {
+  background-color: #3b82f6;
+}
+
+.theme-data .top-nav {
+  background-color: #2563eb;
+}
+
+.theme-cyber .top-nav {
+  background-color: #0f2f6b;
 }
 
 
