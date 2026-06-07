@@ -7,10 +7,6 @@
 /* =========================
    PAGE BACKGROUND (THEME FIX)
 ========================= */
-html {
-  background-color: #f2f8ff;
-}
-
 /* Home */
 html.theme-home {
   background: linear-gradient(135deg, #6FB6FF 50%, #B4232A 50%);
