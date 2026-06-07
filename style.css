@@ -9,17 +9,17 @@
 ========================= */
 /* Home */
 html.theme-home {
-  background-color: #f2f8ff;
+  background-color: #8FC5FF;
 }
 
 /* Data */
 html.theme-data {
-  background-color: #b3d7ff;
+  background-color: #1F8BFF;
 }
 
 /* Cyber */
 html.theme-cyber {
-  background-color: #0f2f6b;
+  background-color: #0056B3;
 }
 
 /* =========================
@@ -246,35 +246,35 @@ footer {
 
 /* Data button */
 .btn_data {
-  background-color: #2563eb;
+  background-color: #1F8BFF;
 }
 
 .btn_data:hover {
-  background-color: #1d4ed8;
+  background-color: #1672d6;
 }
 
 /* Cyber button */
 .btn_cyber {
-  background-color: #0f2f6b;
+  background-color: #0056B3;
 }
 
 .btn_cyber:hover {
-  background-color: #0b1f4a;
+  background-color: #003f8a;
 }
 
 /* =========================
    NAV THEMES
 ========================= */
 .theme-home .top-nav {
-  background-color: #f2f8ff;
+  background-color: #8FC5FF;
 }
 
 .theme-data .top-nav {
-  background-color: #b3d7ff;
+  background-color: #1F8BFF;
 }
 
 .theme-cyber .top-nav {
-  background-color: #0f2f6b;
+  background-color: #0056B3;
 }
 
 /* =========================
