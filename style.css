@@ -5,34 +5,42 @@
 
 
 /* =========================
-   GLOBAL LAYOUT
+   PAGE BACKGROUND
 ========================= */
-body {
-  font-family: 'Nunito', Arial, sans-serif;
-  max-width: 900px;
-  margin: auto;
-  padding: 30px;
-  line-height: 1.8;
-  font-size: 1.1rem;
-  color: #1f2933;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
+html {
+  background-color: #f2f8ff;
+}
+
+/* Home */
+html.theme-home {
+  background-color: #f2f8ff;
+}
+
+/* Data */
+html.theme-data {
+  background-color: #dbeafe;
+}
+
+/* Cyber */
+html.theme-cyber {
+  background-color: #0f2f6b;
 }
 
 
 /* =========================
-   THEMES (BACKGROUND)
+   BODY
 ========================= */
-body.theme-home {
-  background-color: #f2f8ff;
-}
-
-body.theme-data {
-  background-color: #dbeafe;
-}
-
-body.theme-cyber {
-  background-color: #bfdbfe;
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #1f2933;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
 
 
@@ -187,14 +195,14 @@ footer {
   z-index: 1;
 }
 
-/* hover */
+/* Hover */
 .top-nav a:hover {
   opacity: 1;
   color: #e0f2fe;
   transform: translateY(-2px);
 }
 
-/* hover bubble */
+/* Hover bubble */
 .top-nav a::before {
   content: "";
   position: absolute;
@@ -214,7 +222,7 @@ footer {
   height: 300%;
 }
 
-/* active link */
+/* Active link */
 .top-nav a.active {
   color: #ffffff;
   font-weight: 700;
@@ -226,7 +234,7 @@ footer {
 
 
 /* =========================
-   BUTTONS (CENTERED + BIGGER)
+   BUTTONS
 ========================= */
 .button_container {
   display: flex;
@@ -268,7 +276,7 @@ footer {
 
 
 /* =========================
-   THEMES (NAV COLORS)
+   NAV THEMES
 ========================= */
 .theme-home .top-nav {
   background-color: #3b82f6;
