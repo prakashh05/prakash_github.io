@@ -3,15 +3,36 @@
 
 /* Global styles */
 body {
-  font-family: 'Nunito', Arial, sans-serif; /* friendlier, rounded font */
+  font-family: 'Nunito', Arial, sans-serif;
   max-width: 900px;
   margin: auto;
   padding: 30px;
-  line-height: 1.8; /* slightly more spacing for readability */
-  font-size: 1.1rem; /* slightly bigger paragraphs */
-  background-color: #f2f8ff; /* very light blue */
+  line-height: 1.8;
+  font-size: 1.1rem;
   color: #1f2933;
-  border-radius: 8px; /* slight rounding effect */
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+/* ------------------ */
+/* INDEX - Light Blue */
+/* ------------------ */
+body.theme-home {
+  background-color: #f2f8ff;
+}
+
+/* ------------------ */
+/* DATA - Medium Blue */
+/* ------------------ */
+body.theme-data {
+  background-color: #d9ecff;
+}
+
+/* ------------------ */
+/* CYBER - Dark Blue  */
+/* ------------------ */
+body.theme-cyber {
+  background-color: #b8d8ff;
 }
 
 .images {
