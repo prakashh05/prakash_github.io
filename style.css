@@ -85,6 +85,22 @@ p {
   line-height: 1.9;
 }
 
+html.theme-data h1 {
+  color: #B4232A;
+}
+
+html.theme-data h2 {
+  color: #8B1E2D;
+}
+
+html.theme-data h3 {
+  color: #7A1926;
+}
+
+html.theme-data h4 {
+  color: #7A1926;
+}
+
 
 /* =========================
    IMAGES
