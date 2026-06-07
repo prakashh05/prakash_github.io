@@ -213,6 +213,20 @@ footer {
   z-index: -1;
 }
 
+/* Theme-specific navigation colours */
+
+.theme-home .top-nav {
+  background-color: #3b82f6;
+}
+
+.theme-data .top-nav {
+  background-color: #2563eb;
+}
+
+.theme-cyber .top-nav {
+  background-color: #0f2f6b;
+}
+
 .top-nav a:hover::before {
   width: 150%;
   height: 300%;
