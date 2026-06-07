@@ -9,7 +9,29 @@
 ========================= */
 /* Home */
 html.theme-home {
-  background: linear-gradient(135deg, #6FB6FF 50%, #B4232A 50%);
+  background: linear-gradient(
+    -45deg,
+    #0f2f6b,
+    #1F5FBF,
+    #8B1E2D,
+    #B4232A
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* Data */
