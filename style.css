@@ -9,17 +9,15 @@
 ========================= */
 /* Home */
 html.theme-home {
-  background-color: #8FC5FF;
+  background: linear-gradient(135deg, #EAF5FF, #CFE8FF);
 }
 
-/* Data */
 html.theme-data {
-  background-color: #1F8BFF;
+  background: linear-gradient(135deg, #CFE8FF, #4FA3FF);
 }
 
-/* Cyber */
 html.theme-cyber {
-  background-color: #0056B3;
+  background: linear-gradient(135deg, #1F8BFF, #003F8A);
 }
 
 /* =========================
@@ -265,16 +263,19 @@ footer {
 /* =========================
    NAV THEMES
 ========================= */
+/* HOME NAV */
 .theme-home .top-nav {
   background-color: #8FC5FF;
 }
 
+/* DATA NAV */
 .theme-data .top-nav {
   background-color: #1F8BFF;
 }
 
+/* CYBER NAV */
 .theme-cyber .top-nav {
-  background-color: #0056B3;
+  background-color: #003F8A;
 }
 
 /* =========================
