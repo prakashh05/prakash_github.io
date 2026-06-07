@@ -7,10 +7,6 @@
 /* =========================
    PAGE BACKGROUND
 ========================= */
-html {
-  background-color: #f2f8ff;
-}
-
 /* Home */
 html.theme-home {
   background-color: #f2f8ff;
@@ -25,7 +21,6 @@ html.theme-data {
 html.theme-cyber {
   background-color: #0f2f6b;
 }
-
 
 /* =========================
    BODY
@@ -43,7 +38,6 @@ body {
   box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
 
-
 /* =========================
    SECTIONS
 ========================= */
@@ -55,7 +49,6 @@ section {
   border-radius: 16px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
-
 
 /* =========================
    TYPOGRAPHY
@@ -84,7 +77,6 @@ p {
   font-size: 1.15rem;
   line-height: 1.9;
 }
-
 
 /* =========================
    IMAGES
@@ -133,7 +125,6 @@ p {
   object-fit: contain;
 }
 
-
 /* =========================
    LINKS
 ========================= */
@@ -149,7 +140,6 @@ a:hover {
   text-decoration: underline;
 }
 
-
 /* =========================
    FOOTER
 ========================= */
@@ -159,7 +149,6 @@ footer {
   color: #475569;
   font-size: 1.05rem;
 }
-
 
 /* =========================
    NAVIGATION
@@ -232,7 +221,6 @@ footer {
   box-shadow: 0 0 10px rgba(255,255,255,0.15);
 }
 
-
 /* =========================
    BUTTONS
 ========================= */
@@ -274,7 +262,6 @@ footer {
   background-color: #0b1f4a;
 }
 
-
 /* =========================
    NAV THEMES
 ========================= */
@@ -289,7 +276,6 @@ footer {
 .theme-cyber .top-nav {
   background-color: #0f2f6b;
 }
-
 
 /* =========================
    MOBILE
