@@ -14,7 +14,7 @@ html.theme-home {
 
 /* Data */
 html.theme-data {
-  background-color: #dbeafe;
+  background-color: #b3d7ff;
 }
 
 /* Cyber */
@@ -266,11 +266,11 @@ footer {
    NAV THEMES
 ========================= */
 .theme-home .top-nav {
-  background-color: #3b82f6;
+  background-color: #f2f8ff;
 }
 
 .theme-data .top-nav {
-  background-color: #2563eb;
+  background-color: #b3d7ff;
 }
 
 .theme-cyber .top-nav {
