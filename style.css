@@ -1,9 +1,11 @@
-/* Import font */
+/* =========================
+   FONT
+========================= */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 
 
 /* =========================
-   GLOBAL STYLES
+   GLOBAL LAYOUT
 ========================= */
 body {
   font-family: 'Nunito', Arial, sans-serif;
@@ -19,7 +21,7 @@ body {
 
 
 /* =========================
-   THEMES (BODY BACKGROUND)
+   THEMES (BACKGROUND)
 ========================= */
 body.theme-home {
   background-color: #f2f8ff;
@@ -77,7 +79,7 @@ p {
 
 
 /* =========================
-   IMAGES (SIMPLIFIED)
+   IMAGES
 ========================= */
 .images {
   display: flex;
@@ -152,7 +154,7 @@ footer {
 
 
 /* =========================
-   NAVIGATION (BASE)
+   NAVIGATION
 ========================= */
 .top-nav {
   padding: 15px 0;
@@ -181,18 +183,18 @@ footer {
   transition: all 0.25s ease;
   white-space: nowrap;
   overflow: hidden;
-  z-index: 1;
   opacity: 0.9;
+  z-index: 1;
 }
 
-/* Hover effect */
+/* hover */
 .top-nav a:hover {
   opacity: 1;
   color: #e0f2fe;
   transform: translateY(-2px);
 }
 
-/* Bubble hover animation */
+/* hover bubble */
 .top-nav a::before {
   content: "";
   position: absolute;
@@ -212,10 +214,7 @@ footer {
   height: 300%;
 }
 
-
-/* =========================
-   ACTIVE LINK (FIXED VISIBILITY)
-========================= */
+/* active link */
 .top-nav a.active {
   color: #ffffff;
   font-weight: 700;
@@ -227,12 +226,21 @@ footer {
 
 
 /* =========================
-   BUTTONS
+   BUTTONS (CENTERED + BIGGER)
 ========================= */
+.button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
 .btn {
-  padding: 15px 30px;
-  font-size: 18px;
-  border-radius: 10px;
+  padding: 18px 40px;
+  font-size: 20px;
+  border-radius: 12px;
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -240,6 +248,7 @@ footer {
   display: inline-block;
 }
 
+/* Data button */
 .btn_data {
   background-color: #2563eb;
 }
@@ -248,6 +257,7 @@ footer {
   background-color: #1d4ed8;
 }
 
+/* Cyber button */
 .btn_cyber {
   background-color: #0f2f6b;
 }
@@ -258,7 +268,7 @@ footer {
 
 
 /* =========================
-   NAV THEMES
+   THEMES (NAV COLORS)
 ========================= */
 .theme-home .top-nav {
   background-color: #3b82f6;
