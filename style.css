@@ -44,6 +44,16 @@ html.theme-cyber {
   background-color: #0f2f6b;
 }
 
+/* =========================
+   HOME PAGE OVERRIDE (BLACK)
+========================= */
+
+html.theme-home h1,
+html.theme-home h2,
+html.theme-home h3,
+html.theme-home h4 {
+  color: #111827;
+}
 
 /* =========================
    BODY (CENTERED CARD)
