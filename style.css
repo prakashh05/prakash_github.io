@@ -13,7 +13,7 @@ html {
 
 /* Home */
 html.theme-home {
-  background-color: #f2f8ff;
+  background: linear-gradient(135deg, #6FB6FF 50%, #B4232A 50%);
 }
 
 /* Data */
