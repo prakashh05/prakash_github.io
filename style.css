@@ -164,15 +164,6 @@ html.theme-data h4 {
   object-fit: contain;
 }
 
-.c_projects-img {
-  display: block;
-  width: 70%;
-  margin: 30px auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  object-fit: contain;
-}
-
 .skills-img {
   display: block;
   width: 50%;
